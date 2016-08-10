@@ -105,6 +105,36 @@ users:
         browser:  firefox
         position: [0, 0]
         size:     [1366, 800]
+    brizol_Owner:
+        broker:   brizol
+        homepage: "http://prozorroy.byustudio.in.ua/"
+        login:    prozorroytenderowner@gmail.com
+        password: 123456
+        browser:  firefox
+        position: [0, 0]
+        size:     [1366, 800]
+    brizol_Provider:
+        broker:   brizol
+        homepage: "http://prozorroy.byustudio.in.ua/"
+        login:    prozorroyprovider1@gmail.com
+        password: 123456
+        browser:  firefox
+        position: [0, 0]
+        size:     [1366, 800]
+    brizol_Provider1:
+        broker:   brizol
+        homepage: "http://prozorroy.byustudio.in.ua/"
+        login:    prozorroyprovider2@gmail.com
+        password: 123456
+        browser:  firefox
+        position: [0, 0]
+        size:     [1366, 800]
+    brizol_Viewer:
+        broker:   brizol
+        homepage: "http://prozorroy.byustudio.in.ua/"
+        browser:  firefox
+        position: [0, 0]
+        size:     [1366, 800]
     Newtend_Owner:
         broker:   Newtend
         homepage: "http://dev23.newtend.com/opc/tenders"
@@ -203,9 +233,9 @@ users:
     PublicPortal_Viewer:
         broker:   PublicPortal
         homepage: "https://qa23.prozorro.gov.ua/tender/search/"
-        browser:  Сhrome
-        position: [0, 0]
-        size:     [1000, 720]
+        browser:  Chrome
+        position: [450, 0]
+        size:     [1080, 720]
     SmartTender_Viewer:
         broker:   SmartTender
         homepage: "http://test.smarttender.biz/test-tenders?allcat=1"

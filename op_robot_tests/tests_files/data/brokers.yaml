@@ -101,6 +101,18 @@ ztv:
         provider1:   ztv_Provider1
         viewer:   ztv_Viewer
     timeout_on_wait: 300
+brizol:
+    intervals:
+        default:
+            enquiry: [0, 17]
+            tender:  [0, 19]
+    keywords_file: brizol
+    roles:
+        tender_owner:   brizol_Owner
+        provider:   brizol_Provider
+        provider1:   brizol_Provider1
+        viewer:   brizol_Viewer
+    timeout_on_wait: 300
 Newtend:
     keywords_file: newtend
     roles:
@@ -145,7 +157,7 @@ PublicPortal:
     keywords_file: publicportal
     roles:
         viewer:         PublicPortal_Viewer
-    timeout_on_wait: 60
+    timeout_on_wait: 300
 SmartTender:
     intervals:
         default:
