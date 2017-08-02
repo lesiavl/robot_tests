@@ -292,7 +292,8 @@ def compute_intrs(brokers_data, used_brokers):
 
 def prepare_test_tender_data(procedure_intervals,
                              tender_parameters,
-                             submissionMethodDetails):
+                             submissionMethodDetails,
+                             accelerator):
     # Get actual intervals by mode name
     mode = tender_parameters['mode']
     if mode in procedure_intervals:
