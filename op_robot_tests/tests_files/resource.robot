@@ -7,3 +7,4 @@ ${DS_HOST_URL}   https://upload-docs-dev.prozorro.gov.ua
 ${ROLE}          viewer
 ${EDR_HOST_URL}  https://lb.edr-sandbox.openprocurement.org
 ${EDR_VERSION}   0
+

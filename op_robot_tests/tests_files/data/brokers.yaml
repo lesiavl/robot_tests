@@ -180,11 +180,11 @@ PrivatMarket:
             accelerator: 1440
             tender:  [0, 65]
         belowThreshold:
-            accelerator: 144
-            enquiry: [0, 35]
-            tender:  [0, 20]
+            accelerator: 240
+            enquiry: [0, 65]
+            tender:  [0, 65]
         negotiation:
-            accelerator: 1080
+            accelerator: 720
             enquiry: [0, 20]
             tender:  [0, 20]
     keywords_file: privatmarket
@@ -332,7 +332,7 @@ alltenders:
             accelerator: 1440
             tender:  [0, 30]
     keywords_file: alltenders
-    homepage: 'https://prozorro.shadowy.eu/?mode=test&notification=off'
+    homepage: 'https://prozorro.alltenders.com.ua/?mode=test&notification=off'
     roles:
         provider:       alltenders_Provider1
         provider1:      alltenders_Provider2
@@ -376,4 +376,23 @@ pzo:
         provider1:      pzo_Provider2
         tender_owner:   pzo_Owner
         viewer:         pzo_Viewer
+    timeout_on_wait: 1
+aladdin:
+    intervals:
+        belowThreshold:
+            enquiry: [0, 60]
+            tender:  [0, 15]
+            accelerator: 1440
+        openua:
+            accelerator: 1440
+            tender:  [0, 30]
+        openeu:
+            tender:  [0, 30]
+            accelerator: 1440
+    keywords_file: aladdin
+    roles:
+        tender_owner:   aladdin_Owner
+        provider:       aladdin_Provider
+        provider1:      aladdin_Provider1
+        viewer:         aladdin_Viewer
     timeout_on_wait: 1

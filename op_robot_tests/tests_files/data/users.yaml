@@ -513,31 +513,31 @@ users:
         size:     [1400, 900]
     alltenders_Owner:
         broker:   alltenders
-        homepage: 'https://prozorro.shadowy.eu/?mode=test&notification=off'
-        login:    butov@mail.ru
+        homepage: 'https://prozorro.alltenders.com.ua/?mode=test&notification=off'
+        login:    TestOwner@i.ua
         password: 111
         browser:  chrome
         position: [0, 0]
         size:     [1210, 800]
     alltenders_Provider1:
         broker:   alltenders
-        homepage: 'https://prozorro.shadowy.eu/?mode=test&notification=off'
-        login:    k2676849@mvrht.com
+        homepage: 'https://prozorro.alltenders.com.ua/?mode=test&notification=off'
+        login:    member_01@i.ua
         password: 111
         browser:  chrome
         position: [0, 0]
         size:     [1210, 800]
     alltenders_Provider2:
         broker:   alltenders
-        homepage: 'https://prozorro.shadowy.eu/?mode=test&notification=off'
-        login:    k2046243@mvrht.com
+        homepage: 'https://prozorro.alltenders.com.ua/?mode=test&notification=off'
+        login:    member_02@i.ua
         password: 111
         browser:  chrome
         position: [0, 0]
         size:     [1210, 800]
     alltenders_Viewer:
         broker:   alltenders
-        homepage: "https://prozorro.shadowy.eu/?mode=test&notification=off"
+        homepage: "https://prozorro.alltenders.com.ua/?mode=test&notification=off"
         browser:  chrome
         position: [0, 0]
         size:     [1210, 800]
@@ -603,3 +603,33 @@ users:
         browser:  chrome
         position: [0, 0]
         size:     [1000, 500]
+    aladdin_Owner:
+        broker:   aladdin
+        homepage: "http://test-gov.ald.in.ua"
+        login:    aladdin.for.test+owner@gmail.com
+        password: 'zxcvbn00'
+        browser:  chrome
+        position: [0, 0]
+        size:     [1100, 5000]
+    aladdin_Provider:
+        broker:   aladdin
+        homepage: "http://test-gov.ald.in.ua"
+        login:    senya22051989@gmail.com
+        password: '123456'
+        browser:  chrome
+        position: [0, 0]
+        size:     [1100, 5000]
+    aladdin_Provider1:
+        broker:   aladdin
+        homepage: "http://test-gov.ald.in.ua"
+        login:    qa2@gmail.com
+        password: '158263'
+        browser:  chrome
+        position: [0, 0]
+        size:     [1100, 5000]
+    aladdin_Viewer:
+        broker:   aladdin
+        homepage: "http://test-gov.ald.in.ua"
+        browser:  chrome
+        position: [0, 0]
+        size:     [1100, 5000]
